@@ -1,0 +1,2 @@
+language = "bash"
+run = "python lj_gradient_descent.py"
