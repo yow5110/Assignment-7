@@ -9,7 +9,8 @@ def newton2(f, x, tol=1.e-5):
    return x
  
 #demonstrate how you can find a root at pi using your newton2()
-result = newton2(np.sin, 4)
+x_init = 
+result = newton2(np.sin, x_init)
 print(result)
 
 
