@@ -1,6 +1,8 @@
 # Week 9 Task 1
 In addition to the bisection method, Newton's method is another algorithm to find zeros of function. It works as follows:
 
+<a title="Original:  Olegalexandrov Vector:  Pbroks13, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Newton_iteration.svg"><img width="512" alt="Newton iteration" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Newton_iteration.svg/512px-Newton_iteration.svg.png"></a>
+
 1. We start from an initial guess of the value of the zero, <a href="https://www.codecogs.com/eqnedit.php?latex=x_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_0" title="x_0" /></a>. 
 2. We assume that the function is linear, with slope given by the value of its first derivative at the point considered. With this assumption, we can calculate the zero of the function from basic geometry: <a href="https://www.codecogs.com/eqnedit.php?latex=x_{n&plus;1}=x_{n}-\frac{f(x_n)}{f'(x_n)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{n&plus;1}=x_{n}-\frac{f(x_n)}{f'(x_n)}" title="x_{n+1}=x_{n}-\frac{f(x_n)}{f'(x_n)}" /></a>.
 3. We iterate this process until the change in our estimate is smaller than a certain threshold. 
